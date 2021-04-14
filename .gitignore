@@ -40,3 +40,5 @@ vignettes/*.pdf
 
 # Mac files
 .DS_Store
+
+maps/

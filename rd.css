@@ -1,5 +1,5 @@
 a {
-  color: #1f8de7;
+  color: #193e5d;
 }
 
 a:hover, a:active {
@@ -93,12 +93,11 @@ pre code {
   }
 
   .remark-slide-content > h3, .pull-left > h3, .pull-right > h3 {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 22px;
   }
 
   .remark-slide-content > h3, .pull-left > h3, .pull-right > h3 {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .remark-slide-number {

@@ -14,8 +14,18 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+source('_setup.R')
+# knitr::clean_cache(TRUE)
+htmltools::tagList(
+  xaringanExtra::use_clipboard(
+    button_text = "<i class=\"fa fa-clipboard\"></i>",
+    success_text = "<i class=\"fa fa-check\" style=\"color: #37abc8\"></i>",
+  ),
+  rmarkdown::html_dependency_font_awesome()
+)
+# xaringanExtra::use_scribble()
 ```
+
 
 class: title-slide, middle
 
@@ -249,6 +259,42 @@ class: inverse, center, middle
 <i class="fas fa-arrow-circle-right" style="color:#429a6d;"></i> Webinaire d'avancement (aujourd'hui)<br/>
 </p>
 
+---
+
+class: inverse, center, middle
+
+# Portée de l'évaluation
+
+<html><div style='float:left'></div><hr color='#ffdd55' style="margin-top:-30px" size=1px width=720px></html>
+
+
+---
+
+# Portée de l'évaluation
+
+## Zone d'étude <a href="maps/sa.html" target="_blank">`r mp()`</a>
+
+
+### Étendue
+
+- Ouest: Châteaugay
+- Est : Pointe-des-Monts et Cap-Chat
+- Saguenay : Saint-Fulgence
+
+### Grille d'étude
+
+- Cellules $1km^2$
+
+---
+
+# Portée de l'évaluation
+
+## Stresseurs environnementaux & composantes valorisées
+
+<br/>
+
+<center><img src="figures/portee.png" width="100%"></img></center>
+
 
 ---
 
@@ -341,143 +387,6 @@ Beauchesne et al., en préparation
 
 
 
-
-
----
-
-class: inverse, center, middle
-
-# Portrait de la zone d'étude
-
-<html><div style='float:left'></div><hr color='#ffdd55' style="margin-top:-30px" size=1px width=720px></html>
-
-
----
-
-# Portrait de la zone d'étude
-
-## Activités et facteurs de stress
-
-**Activités**: *Action qui peut entraîner un ou plusieurs facteurs de stress sur l'écosystème en cours d'évaluation.*
-
-**Facteurs de stress**: *Tout élément physique, chimique ou biologique qui, à un niveau d'intensité donné, est susceptible d'avoir des effets négatifs sur une composante valorisée.*
-
-<table class="TC">
-<thead>
-<tr>
-<th>Activités maritimes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Dragage</td>
-</tr>
-<tr>
-<td>Ancrages</td>
-</tr>
-<tr>
-<td>Échouements et naufrages</td>
-</tr>
-<tr>
-<td>Rejets opérationels</td>
-</tr>
-<tr>
-<td>Déversements accidentels</td>
-</tr>
-<tr>
-<td>Navigation</td>
-</tr>
-<tr>
-<td>Engins de pêche</td>
-</tr>
-</tbody>
-</table>
-
----
-
-# Portrait de la zone d'étude
-
-## Composantes valorisées
-
-*Éléments sur lesquels l'analyse d'effet cumulatif est effectuée et ayant été estimés préoccupants par les parties prenantes d'un projet.*
-
-<table class="TC">
-<thead>
-<tr>
-<th>Composantes valorirées</th>
-<th>Exemples de sous-catégories</th>
-<th>Milieu d'eau douce</th>
-<th>Milieu marin</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Qualité de l'eau</td>
-<td>Turbidité de l'eau</td>
-<td style="text-align:center">X</td>
-<td style="text-align:center">X</td>
-</tr>
-<tr>
-<td rowspan="3">Habitats fauniques et floristiques</td>
-<td>Habitats côtiers</td>
-<td style="text-align:center">X</td>
-<td style="text-align:center">X</td>
-</tr>
-<tr>
-<td>Habitats benthiques</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td>Habitats pélagiques</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td rowspan="5">Sites d'importance</td>
-<td>Sites culturels et patrimoniaux autochtones</td>
-<td style="text-align:center">X</td>
-<td style="text-align:center">X</td>
-</tr>
-<tr>
-<td>Sites archéologiques</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td>Sites touristiques</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td>Aires protégées</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td>Hotspots de diversité</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td rowspan="2">Intégrité des berges</td>
-<td>Artificialisation des berges</td>
-<td style="text-align:center">X</td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td>Taux d'érosion</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td>Mammifères marins</td>
-<td>Espèces fréquemment observées</td>
-<td style="text-align:center"></td>
-<td style="text-align:center">X</td>
-</tr>
-</tbody>
-</table>
 
 
 
