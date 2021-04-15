@@ -29,22 +29,32 @@ cols <- c('#777777','#d66666','#f0f518','#2eb8dd','#6a8868')
 ```
 
 
-
 class: title-slide, middle
 
 
 # Effets cumulatifs des activités maritimes sur le Saint-Laurent et la rivière Saguenay - Projet pilote
 
-## Webinaire d'avancement
+<center><img src="figures/studyarea.png" width="65%"></img></center>
 
 
-.instructors[
-  David Beauchesne, Cindy Grant & Philippe Archambault
-]
+<center><i>David Beauchesne, Cindy Grant & Philippe Archambault</i></center>
 
-<a href="https://www.ulaval.ca/"><img src="assets/img/ul.png" width="100px"></img></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span class="br2"></span>
+
+<center>
+<a href="https://www.ulaval.ca/"><img src="figures/ul.png" width="100px"></img></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="assets/img/labo_benthos.png" width="50px"></img>
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="figures/Transport-Canada.png" width="10%"></img> -->
+</center>
+
+### Webinaire d'avancement
+
+<span class="br2"></span>
+
+#### 2021-04-21
+
 
 ---
 
