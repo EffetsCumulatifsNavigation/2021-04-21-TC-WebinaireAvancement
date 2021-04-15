@@ -763,10 +763,6 @@ class: inverse, center, middle
 --
 
 .pull-left[
-**Description**
-
-- Distribution de différents types d'habitats au sein de la zone d'étude
-
 **Sources**
 
 - Environnement et Changement climatique Canada
