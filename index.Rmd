@@ -123,19 +123,6 @@ https://www.canada.ca/fr/agence-evaluation-impact/services/politiques-et-orienta
 
 ---
 
-# Évaluation des effets cumulatifs
-
-**Stresseurs environnementaux** : *Tout élément physique, chimique ou biologique qui, à un niveau d'intensité donné, est susceptible d'avoir des effets négatifs sur une composante valorisée.*
-
---
-
-**Composantes valorisées** : *Éléments sur lesquels l'analyse d'effet cumulatif est effectuée et ayant été estimés préoccupants par les parties prenantes d'un projet.*
-
-
-
-
----
-
 class: inverse, center, middle
 
 # Étapes
@@ -415,7 +402,7 @@ class: inverse, center, middle
 
 # Stresseurs environnementaux
 
-## Ancrages &nbsp; <a href="maps/ancrages.html" target="_blank">`r mp()`</a> &nbsp; `r db(cols[2])`
+## Ancrages &nbsp; <a href="maps/ancrage.html" target="_blank">`r mp()`</a> &nbsp; `r db(cols[2])`
 
 ![](https://img.shields.io/badge/avancement-cartographi%C3%A9-%2379c678)
 ![](https://img.shields.io/badge/statut-valider-%232eb8dd)
@@ -464,7 +451,7 @@ Number of anchorage sites in a 5km radius
 
 # Stresseurs environnementaux
 
-## Déversements accidentels &nbsp; <a href="maps/deversements.html" target="_blank">`r mp()`</a> &nbsp; `r db(cols[5])`
+## Déversements accidentels &nbsp; <a href="maps/deversement.html" target="_blank">`r mp()`</a> &nbsp; `r db(cols[5])`
 
 ![](https://img.shields.io/badge/avancement-cartographi%C3%A9-%2379c678)
 ![](https://img.shields.io/badge/statut-valider-%232eb8dd)
@@ -724,6 +711,7 @@ Number of anchorage sites in a 5km radius
 
 ![](https://img.shields.io/badge/avancement-recherche-%23777777)
 
+Recherche d'informations en cours
 
 ---
 
@@ -745,7 +733,7 @@ class: inverse, center, middle
 
 ![](https://img.shields.io/badge/avancement-recherche-%23777777)
 
-
+Recherche d'informations en cours
 
 ---
 
@@ -857,7 +845,7 @@ class: inverse, center, middle
 
 # Composantes valorisées
 
-## Intégrité des berges &nbsp; <a href="maps/berges.html" target="_blank">`r mp()`</a> &nbsp; <a href="https://www.donneesquebec.ca/recherche/dataset/caracterisation-des-berges-et-analyse-de-l-evolution-des-facteurs-hydro-climatiques" target="_blank">`r db(cols[5])`</a>
+## Intégrité des berges &nbsp; <a href="maps/berge.html" target="_blank">`r mp()`</a> &nbsp; <a href="https://www.donneesquebec.ca/recherche/dataset/caracterisation-des-berges-et-analyse-de-l-evolution-des-facteurs-hydro-climatiques" target="_blank">`r db(cols[5])`</a>
 
 ![](https://img.shields.io/badge/avancement-cartographi%C3%A9-%2379c678)
 ![](https://img.shields.io/badge/statut-valider-%232eb8dd)
