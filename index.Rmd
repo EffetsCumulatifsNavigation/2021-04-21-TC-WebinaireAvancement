@@ -152,6 +152,10 @@ class: inverse, center, middle
 --
 6. Processus décisionnels et de gestion
 
+--
+7. Suivi et gestion adaptative
+
+
 ---
 
 # Étapes
