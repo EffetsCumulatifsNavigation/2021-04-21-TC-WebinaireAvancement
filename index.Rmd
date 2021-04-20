@@ -296,7 +296,7 @@ class: inverse, center, middle
 - Travail d'intégration de données et connaissances existantes qui ne remplace pas les programmes et projets existants
 
 --
-- Priorités aux données ouvertes
+- Priorité aux données ouvertes
 
 
 --
@@ -311,7 +311,7 @@ class: inverse, center, middle
 --
 ### Limites de l'interprétation
 
-- Évaluation sectorielle qui ne considère pas tous les stresseurs environnementaux exitant
+- Évaluation sectorielle qui ne considère pas tous les stresseurs environnementaux existants
 
 --
 - Interprétation limitée aux données et connaissances disponibles et accessibles
